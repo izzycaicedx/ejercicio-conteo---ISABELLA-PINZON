@@ -1,5 +1,4 @@
-
-import pk01.Conteo;
+package pk01;
 import javax.swing.*;
 public class Principal {
 
