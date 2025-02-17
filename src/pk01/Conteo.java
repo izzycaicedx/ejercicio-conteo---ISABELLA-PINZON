@@ -14,10 +14,15 @@ public class Conteo {
     }
     
      
-     public void setPalabra(String palabra){
-        this.palabra=palabra;
+     public void setPalabra(String palabra) throws Exception {
+        this.palabra=palabra.toLowerCase();
         
+        if (palabra.matches(".*[A-Z].*")) {
+            throw new Exception("La palabra contiene letras mayusculas. \n Solo se permiten minusculas.");
         }
+    }
+        
+        
      public int getNumeroVocal() {
         return numero_vocales;
         
@@ -29,14 +34,13 @@ public class Conteo {
         }   
      
      public void calcularPalabra(){
-        
-     numero_vocales = 0;
-        numero_consonantes = 0;
+     
         String vocales = "aeiou";
 
-        for (char letra : palabra.toCharArray()) {
+         for (char letra : palabra.toCharArray()) {
+          
             if (Character.isLetter(letra)) {
-                if (vocales.indexOf(Character.toLowerCase(letra)) != -1) {
+                if (vocales.indexOf(letra) != -1) {
                     numero_vocales++;
                 } else {
                     numero_consonantes++;
@@ -44,6 +48,6 @@ public class Conteo {
             }
         }
 
-  }
-     
-  }
+    }
+
+}
