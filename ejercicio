@@ -1,5 +1,5 @@
-##trabajo teorico
-#1. ¿Cuáles son los tipos de datos primitivos en Java?
+#trabajo teorico
+##1. ¿Cuáles son los tipos de datos primitivos en Java?
 *byte: Representa un tipo de dato de 8 bits con signo. De tal manera que puede
 almacenar los valores numéricos de -128 a 127 (ambos inclusive).
 
@@ -23,7 +23,7 @@ un valor de true o false. Ocupa 1 bit de información.
 char: Es un tipo de datos que representa a un carácter Unicode sencillo de 16 bits.
 
 
-#2 #Cómo funcionan las estructuras de control de flujo como if, else, switch y bucles en
+##2 #Cómo funcionan las estructuras de control de flujo como if, else, switch y bucles en
 Java?
 
 Cómo funcionan las estructuras de control de flujo como if, else, switch y bucles en
@@ -58,7 +58,7 @@ mientras la condición asociada al while permanezca verdadera.
 El bucle while funciona por medio de booleanos, es decir, a través de valores True o False,
 donde se establece si la condición es verdadera o falsa.
 
-3 ¿Por qué es importante usar nombres significativos para variables y métodos?
+##3 ¿Por qué es importante usar nombres significativos para variables y métodos?
 Es importante usar nombres significativos para variables y métodos en programación
 porque facilita la lectura, mantenimiento y actualización del código.
 Ventajas de usar nombres significativos:
@@ -72,7 +72,7 @@ mal los espacios y caracteres especiales.
 Facilita la reutilización de código: Los nombres significativos ayudan a comprender el
 código incluso después de un largo periodo de tiempo.
 
-4. ¿Qué es la Programación Orientada a Objetos (POO)?
+##4. ¿Qué es la Programación Orientada a Objetos (POO)?
 En la Programación Orientada a Objetos (POO), un objeto se define como una instancia
 concreta de una clase. Cada clase actúa como una plantilla o un modelo que especifica las
 propiedades y comportamientos que serán comunes a todos los objetos derivados de esa
@@ -86,3 +86,77 @@ métodos permiten a los objetos interactuar con otros objetos o realizar tareas 
 manipulando sus propios datos o los de otros objetos para llevar a cabo operaciones
 específicas
 
+##5. ¿Cuáles son los cuatro pilares de la Programación Orientada a Objetos?
+Los cuatro pilares de la programación orientada a objetos (POO) son:
+
+Abstracción: Simplifica la complejidad del código ocultando la complejidad interna y
+mostrando solo las funcionalidades necesarias.
+Encapsulación: Protege el núcleo de un objeto agrupando sus datos y métodos, y
+restringiendo el acceso directo a algunos de sus componentes.
+Herencia: Permite que una nueva clase hereda propiedades y métodos de una clase
+existente.
+Polimorfismo: Permite que las clases tengan diferentes métodos que se llaman de la
+misma manera.
+
+Estos pilares son fundamentales para crear código modular, reutilizable y fácil de mantener.
+Cómo funcionan los pilares de la POO
+La abstracción permite que el usuario interactúe con los atributos y métodos seleccionados
+de un objeto.
+
+La encapsulación ayuda a prevenir la modificación accidental de datos.
+La herencia define relaciones jerárquicas entre clases.
+El polimorfismo permite procesar objetos de diferentes manera
+
+#6. ¿Qué es la herencia en POO y cómo se utiliza en Java?
+La herencia en Java es un mecanismo en el que un objeto adquiere todas las propiedades y
+comportamientos de un objeto principal. Es una parte importante de los OOP (sistema de
+programación orientado a objetos).
+La idea detrás de la herencia en Java es que puede crear nuevas clases que se basan en
+clases existentes. Cuando hereda de una clase existente, puede reutilizar métodos y
+campos de la clase principal. Además, también puede agregar nuevos métodos y campos
+en su clase actual.
+
+Características clave de una herencia en Java
+Cuando hablamos de herencia en Java tenemos que hacer referencia a una terminología
+específica. De esta manera, nos encontramos con varios términos que conviene destacar:
+
+Superclase. Cuando hablamos de superclase hacemos referencia a la clase padre
+desde la que se heredan atributos y funciones.
+
+Subclase. Este término hace referencia a las clases hijo y que reciben los atributos
+y funciones de las superclases.
+
+Reutilización. La herencia en Java respalda el concepto de reutilización, es decir,
+que cuando se quiere crear una nueva clase y ya hay una que tiene parte del código,
+se puede derivar esta de la ya existente.
+
+##7. ¿Qué son los modificadores de acceso y cuáles son los más comunes en Java?
+Un modificador de acceso es una palabra clave en Java que indica quien tiene derecho a
+acceder a los miembros de una clase.
+Proporcionan un mecanismo para favorecer el encapsulamiento, mientras a la vez protegen
+a los miembros de accesos y/o modificaciones no deseadas.
+Los modificadores también juegan un papel importante en la herencia, estableciendo que
+propiedades se pueden heredar, y cuáles no.
+
+¿Cuáles son los modificadores de acceso?
+Java proporciona cuatro tipos de acceso a los miembros de una clase:
+
+public
+private
+protected
+default
+
+8. ¿Qué es una variable de entorno y por qué son importantes para Java o la programación
+en general?
+Las variables de entorno son pares clave/valor que se almacenan fuera del programa y que
+afectan su ejecución. Son importantes para Java y la programación en general porque
+permiten separar el código de la aplicación de las configuraciones.
+Ventajas de las variables de entorno
+
+Permiten personalizar el comportamiento de ejecución de un servicio para diferentes
+
+entornos.
+Evitan codificar datos confidenciales directamente en el código fuente.
+Facilitan la actualización de configuraciones sin tener que volver a implementar ni
+alterar la base de código de la aplicación.
+Protegen de enviar credenciales secretas a la fuente de la aplicación
