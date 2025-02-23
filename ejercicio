@@ -1,5 +1,5 @@
-##trabajo
-1. ¿Cuáles son los tipos de datos primitivos en Java?
+##trabajo teorico
+#1. ¿Cuáles son los tipos de datos primitivos en Java?
 *byte: Representa un tipo de dato de 8 bits con signo. De tal manera que puede
 almacenar los valores numéricos de -128 a 127 (ambos inclusive).
 
@@ -21,3 +21,16 @@ precisión de 64 bits.
 *boolean: Sirve para definir tipos de datos booleanos. Es decir, aquellos que tienen
 un valor de true o false. Ocupa 1 bit de información.
 char: Es un tipo de datos que representa a un carácter Unicode sencillo de 16 bits.
+
+
+2 #Cómo funcionan las estructuras de control de flujo como if, else, switch y bucles en
+Java?
+
+Cómo funcionan las estructuras de control de flujo como if, else, switch y bucles en
+Java?
+
+* Declaraciones Condicionales - if y else: Las declaraciones condicionales son como
+los caminos que sigue nuestro programa dependiendo de ciertas condiciones. La
+declaración "if" permite ejecutar un bloque de código si una condición es verdadera.
+La declaración "else" proporciona una ruta alternativa si la condición "if" resulta falsa
+
