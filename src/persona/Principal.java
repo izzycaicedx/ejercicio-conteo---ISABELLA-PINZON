@@ -11,7 +11,7 @@ public class Principal {
         System.out.println("Informacion personal de persona1: ");
         persona1.Imprimir();
 
-        System.out.println("\nInformacion personal de persona2: "); // Añadido un salto de línea para mejor legibilidad
+        System.out.println("\nInformacion personal de persona2: ");
         persona2.Imprimir();
     }
 }

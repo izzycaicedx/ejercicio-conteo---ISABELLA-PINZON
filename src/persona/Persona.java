@@ -12,10 +12,11 @@ public class Persona {
         this.nombre = nombre;
         this.apellido = apellido;
         this.año_nac = año_nac;
-        this.paisNacimiento = paisNacimiento; // Corrección: inicializa con el valor pasado
+        this.paisNacimiento = paisNacimiento;
         this.genero = genero;
     }
 
+   
     
     public int calcularEdad() {
         try {
@@ -24,7 +25,7 @@ public class Persona {
             return añoActual - añoNacimiento;
         } catch (NumberFormatException e) {
             System.err.println("Error: El año de nacimiento no es un número válido.");
-            return -1; // Retorna -1 para indicar un error
+            return -1; 
         }
         
     }
