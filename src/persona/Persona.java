@@ -26,6 +26,7 @@ public class Persona {
             System.err.println("Error: El año de nacimiento no es un número válido.");
             return -1; // Retorna -1 para indicar un error
         }
+        
     }
 
     public void Imprimir() {
@@ -40,5 +41,6 @@ public class Persona {
         if (edad != -1) {
             System.out.println("Edad: " + edad);
         }
+        
     }
 }
